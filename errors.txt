@@ -1,0 +1,2503 @@
+n = 512
+========= CUDA-MEMCHECK
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (383,0,0) in block (0,0,0)
+=========     Address 0x6001005fc is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (382,0,0) in block (0,0,0)
+=========     Address 0x6001005f8 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (381,0,0) in block (0,0,0)
+=========     Address 0x6001005f4 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (380,0,0) in block (0,0,0)
+=========     Address 0x6001005f0 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (379,0,0) in block (0,0,0)
+=========     Address 0x6001005ec is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (378,0,0) in block (0,0,0)
+=========     Address 0x6001005e8 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (377,0,0) in block (0,0,0)
+=========     Address 0x6001005e4 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (376,0,0) in block (0,0,0)
+=========     Address 0x6001005e0 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (375,0,0) in block (0,0,0)
+=========     Address 0x6001005dc is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (374,0,0) in block (0,0,0)
+=========     Address 0x6001005d8 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (373,0,0) in block (0,0,0)
+=========     Address 0x6001005d4 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (372,0,0) in block (0,0,0)
+=========     Address 0x6001005d0 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (371,0,0) in block (0,0,0)
+=========     Address 0x6001005cc is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (370,0,0) in block (0,0,0)
+=========     Address 0x6001005c8 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (369,0,0) in block (0,0,0)
+=========     Address 0x6001005c4 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (368,0,0) in block (0,0,0)
+=========     Address 0x6001005c0 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (367,0,0) in block (0,0,0)
+=========     Address 0x6001005bc is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (366,0,0) in block (0,0,0)
+=========     Address 0x6001005b8 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (365,0,0) in block (0,0,0)
+=========     Address 0x6001005b4 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (364,0,0) in block (0,0,0)
+=========     Address 0x6001005b0 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (363,0,0) in block (0,0,0)
+=========     Address 0x6001005ac is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (362,0,0) in block (0,0,0)
+=========     Address 0x6001005a8 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (361,0,0) in block (0,0,0)
+=========     Address 0x6001005a4 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (360,0,0) in block (0,0,0)
+=========     Address 0x6001005a0 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (359,0,0) in block (0,0,0)
+=========     Address 0x60010059c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (358,0,0) in block (0,0,0)
+=========     Address 0x600100598 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (357,0,0) in block (0,0,0)
+=========     Address 0x600100594 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (356,0,0) in block (0,0,0)
+=========     Address 0x600100590 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (355,0,0) in block (0,0,0)
+=========     Address 0x60010058c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (354,0,0) in block (0,0,0)
+=========     Address 0x600100588 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (353,0,0) in block (0,0,0)
+=========     Address 0x600100584 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (352,0,0) in block (0,0,0)
+=========     Address 0x600100580 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (287,0,0) in block (0,0,0)
+=========     Address 0x60010047c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (286,0,0) in block (0,0,0)
+=========     Address 0x600100478 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (285,0,0) in block (0,0,0)
+=========     Address 0x600100474 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (284,0,0) in block (0,0,0)
+=========     Address 0x600100470 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (283,0,0) in block (0,0,0)
+=========     Address 0x60010046c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (282,0,0) in block (0,0,0)
+=========     Address 0x600100468 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (281,0,0) in block (0,0,0)
+=========     Address 0x600100464 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (280,0,0) in block (0,0,0)
+=========     Address 0x600100460 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (279,0,0) in block (0,0,0)
+=========     Address 0x60010045c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (278,0,0) in block (0,0,0)
+=========     Address 0x600100458 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (277,0,0) in block (0,0,0)
+=========     Address 0x600100454 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (276,0,0) in block (0,0,0)
+=========     Address 0x600100450 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (275,0,0) in block (0,0,0)
+=========     Address 0x60010044c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (274,0,0) in block (0,0,0)
+=========     Address 0x600100448 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (273,0,0) in block (0,0,0)
+=========     Address 0x600100444 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (272,0,0) in block (0,0,0)
+=========     Address 0x600100440 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (271,0,0) in block (0,0,0)
+=========     Address 0x60010043c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (270,0,0) in block (0,0,0)
+=========     Address 0x600100438 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (269,0,0) in block (0,0,0)
+=========     Address 0x600100434 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (268,0,0) in block (0,0,0)
+=========     Address 0x600100430 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (267,0,0) in block (0,0,0)
+=========     Address 0x60010042c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (266,0,0) in block (0,0,0)
+=========     Address 0x600100428 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (265,0,0) in block (0,0,0)
+=========     Address 0x600100424 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (264,0,0) in block (0,0,0)
+=========     Address 0x600100420 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (263,0,0) in block (0,0,0)
+=========     Address 0x60010041c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (262,0,0) in block (0,0,0)
+=========     Address 0x600100418 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (261,0,0) in block (0,0,0)
+=========     Address 0x600100414 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (260,0,0) in block (0,0,0)
+=========     Address 0x600100410 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (259,0,0) in block (0,0,0)
+=========     Address 0x60010040c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (258,0,0) in block (0,0,0)
+=========     Address 0x600100408 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (257,0,0) in block (0,0,0)
+=========     Address 0x600100404 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (256,0,0) in block (0,0,0)
+=========     Address 0x600100400 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (159,0,0) in block (0,0,0)
+=========     Address 0x60010027c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (158,0,0) in block (0,0,0)
+=========     Address 0x600100278 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (157,0,0) in block (0,0,0)
+=========     Address 0x600100274 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (156,0,0) in block (0,0,0)
+=========     Address 0x600100270 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (155,0,0) in block (0,0,0)
+=========     Address 0x60010026c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (154,0,0) in block (0,0,0)
+=========     Address 0x600100268 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (153,0,0) in block (0,0,0)
+=========     Address 0x600100264 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (152,0,0) in block (0,0,0)
+=========     Address 0x600100260 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (151,0,0) in block (0,0,0)
+=========     Address 0x60010025c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (150,0,0) in block (0,0,0)
+=========     Address 0x600100258 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (149,0,0) in block (0,0,0)
+=========     Address 0x600100254 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (148,0,0) in block (0,0,0)
+=========     Address 0x600100250 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (147,0,0) in block (0,0,0)
+=========     Address 0x60010024c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (146,0,0) in block (0,0,0)
+=========     Address 0x600100248 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (145,0,0) in block (0,0,0)
+=========     Address 0x600100244 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (144,0,0) in block (0,0,0)
+=========     Address 0x600100240 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (143,0,0) in block (0,0,0)
+=========     Address 0x60010023c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (142,0,0) in block (0,0,0)
+=========     Address 0x600100238 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (141,0,0) in block (0,0,0)
+=========     Address 0x600100234 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (140,0,0) in block (0,0,0)
+=========     Address 0x600100230 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (139,0,0) in block (0,0,0)
+=========     Address 0x60010022c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (138,0,0) in block (0,0,0)
+=========     Address 0x600100228 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (137,0,0) in block (0,0,0)
+=========     Address 0x600100224 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (136,0,0) in block (0,0,0)
+=========     Address 0x600100220 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (135,0,0) in block (0,0,0)
+=========     Address 0x60010021c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (134,0,0) in block (0,0,0)
+=========     Address 0x600100218 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (133,0,0) in block (0,0,0)
+=========     Address 0x600100214 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (132,0,0) in block (0,0,0)
+=========     Address 0x600100210 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (131,0,0) in block (0,0,0)
+=========     Address 0x60010020c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (130,0,0) in block (0,0,0)
+=========     Address 0x600100208 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (129,0,0) in block (0,0,0)
+=========     Address 0x600100204 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (128,0,0) in block (0,0,0)
+=========     Address 0x600100200 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (127,0,0) in block (0,0,0)
+=========     Address 0x6001001fc is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (126,0,0) in block (0,0,0)
+=========     Address 0x6001001f8 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (125,0,0) in block (0,0,0)
+=========     Address 0x6001001f4 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (124,0,0) in block (0,0,0)
+=========     Address 0x6001001f0 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (123,0,0) in block (0,0,0)
+=========     Address 0x6001001ec is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (122,0,0) in block (0,0,0)
+=========     Address 0x6001001e8 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (121,0,0) in block (0,0,0)
+=========     Address 0x6001001e4 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (120,0,0) in block (0,0,0)
+=========     Address 0x6001001e0 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (119,0,0) in block (0,0,0)
+=========     Address 0x6001001dc is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (118,0,0) in block (0,0,0)
+=========     Address 0x6001001d8 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (117,0,0) in block (0,0,0)
+=========     Address 0x6001001d4 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (116,0,0) in block (0,0,0)
+=========     Address 0x6001001d0 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (115,0,0) in block (0,0,0)
+=========     Address 0x6001001cc is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (114,0,0) in block (0,0,0)
+=========     Address 0x6001001c8 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (113,0,0) in block (0,0,0)
+=========     Address 0x6001001c4 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (112,0,0) in block (0,0,0)
+=========     Address 0x6001001c0 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (111,0,0) in block (0,0,0)
+=========     Address 0x6001001bc is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (110,0,0) in block (0,0,0)
+=========     Address 0x6001001b8 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (109,0,0) in block (0,0,0)
+=========     Address 0x6001001b4 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (108,0,0) in block (0,0,0)
+=========     Address 0x6001001b0 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (107,0,0) in block (0,0,0)
+=========     Address 0x6001001ac is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (106,0,0) in block (0,0,0)
+=========     Address 0x6001001a8 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (105,0,0) in block (0,0,0)
+=========     Address 0x6001001a4 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (104,0,0) in block (0,0,0)
+=========     Address 0x6001001a0 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (103,0,0) in block (0,0,0)
+=========     Address 0x60010019c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (102,0,0) in block (0,0,0)
+=========     Address 0x600100198 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (101,0,0) in block (0,0,0)
+=========     Address 0x600100194 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (100,0,0) in block (0,0,0)
+=========     Address 0x600100190 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (99,0,0) in block (0,0,0)
+=========     Address 0x60010018c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (98,0,0) in block (0,0,0)
+=========     Address 0x600100188 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (97,0,0) in block (0,0,0)
+=========     Address 0x600100184 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (96,0,0) in block (0,0,0)
+=========     Address 0x600100180 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (95,0,0) in block (0,0,0)
+=========     Address 0x60010017c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (94,0,0) in block (0,0,0)
+=========     Address 0x600100178 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (93,0,0) in block (0,0,0)
+=========     Address 0x600100174 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (92,0,0) in block (0,0,0)
+=========     Address 0x600100170 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (91,0,0) in block (0,0,0)
+=========     Address 0x60010016c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (90,0,0) in block (0,0,0)
+=========     Address 0x600100168 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (89,0,0) in block (0,0,0)
+=========     Address 0x600100164 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (88,0,0) in block (0,0,0)
+=========     Address 0x600100160 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (87,0,0) in block (0,0,0)
+=========     Address 0x60010015c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (86,0,0) in block (0,0,0)
+=========     Address 0x600100158 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (85,0,0) in block (0,0,0)
+=========     Address 0x600100154 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (84,0,0) in block (0,0,0)
+=========     Address 0x600100150 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (83,0,0) in block (0,0,0)
+=========     Address 0x60010014c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (82,0,0) in block (0,0,0)
+=========     Address 0x600100148 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (81,0,0) in block (0,0,0)
+=========     Address 0x600100144 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (80,0,0) in block (0,0,0)
+=========     Address 0x600100140 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (79,0,0) in block (0,0,0)
+=========     Address 0x60010013c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (78,0,0) in block (0,0,0)
+=========     Address 0x600100138 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (77,0,0) in block (0,0,0)
+=========     Address 0x600100134 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (76,0,0) in block (0,0,0)
+=========     Address 0x600100130 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (75,0,0) in block (0,0,0)
+=========     Address 0x60010012c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (74,0,0) in block (0,0,0)
+=========     Address 0x600100128 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (73,0,0) in block (0,0,0)
+=========     Address 0x600100124 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (72,0,0) in block (0,0,0)
+=========     Address 0x600100120 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (71,0,0) in block (0,0,0)
+=========     Address 0x60010011c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (70,0,0) in block (0,0,0)
+=========     Address 0x600100118 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (69,0,0) in block (0,0,0)
+=========     Address 0x600100114 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (68,0,0) in block (0,0,0)
+=========     Address 0x600100110 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (67,0,0) in block (0,0,0)
+=========     Address 0x60010010c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (66,0,0) in block (0,0,0)
+=========     Address 0x600100108 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (65,0,0) in block (0,0,0)
+=========     Address 0x600100104 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (64,0,0) in block (0,0,0)
+=========     Address 0x600100100 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (63,0,0) in block (0,0,0)
+=========     Address 0x6001000fc is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (62,0,0) in block (0,0,0)
+=========     Address 0x6001000f8 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (61,0,0) in block (0,0,0)
+=========     Address 0x6001000f4 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (60,0,0) in block (0,0,0)
+=========     Address 0x6001000f0 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (59,0,0) in block (0,0,0)
+=========     Address 0x6001000ec is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (58,0,0) in block (0,0,0)
+=========     Address 0x6001000e8 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (57,0,0) in block (0,0,0)
+=========     Address 0x6001000e4 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (56,0,0) in block (0,0,0)
+=========     Address 0x6001000e0 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (55,0,0) in block (0,0,0)
+=========     Address 0x6001000dc is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (54,0,0) in block (0,0,0)
+=========     Address 0x6001000d8 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (53,0,0) in block (0,0,0)
+=========     Address 0x6001000d4 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (52,0,0) in block (0,0,0)
+=========     Address 0x6001000d0 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (51,0,0) in block (0,0,0)
+=========     Address 0x6001000cc is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (50,0,0) in block (0,0,0)
+=========     Address 0x6001000c8 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (49,0,0) in block (0,0,0)
+=========     Address 0x6001000c4 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (48,0,0) in block (0,0,0)
+=========     Address 0x6001000c0 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (47,0,0) in block (0,0,0)
+=========     Address 0x6001000bc is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (46,0,0) in block (0,0,0)
+=========     Address 0x6001000b8 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (45,0,0) in block (0,0,0)
+=========     Address 0x6001000b4 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (44,0,0) in block (0,0,0)
+=========     Address 0x6001000b0 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (43,0,0) in block (0,0,0)
+=========     Address 0x6001000ac is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (42,0,0) in block (0,0,0)
+=========     Address 0x6001000a8 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (41,0,0) in block (0,0,0)
+=========     Address 0x6001000a4 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (40,0,0) in block (0,0,0)
+=========     Address 0x6001000a0 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (39,0,0) in block (0,0,0)
+=========     Address 0x60010009c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (38,0,0) in block (0,0,0)
+=========     Address 0x600100098 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (37,0,0) in block (0,0,0)
+=========     Address 0x600100094 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (36,0,0) in block (0,0,0)
+=========     Address 0x600100090 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (35,0,0) in block (0,0,0)
+=========     Address 0x60010008c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (34,0,0) in block (0,0,0)
+=========     Address 0x600100088 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (33,0,0) in block (0,0,0)
+=========     Address 0x600100084 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (32,0,0) in block (0,0,0)
+=========     Address 0x600100080 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (31,0,0) in block (0,0,0)
+=========     Address 0x60010007c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (30,0,0) in block (0,0,0)
+=========     Address 0x600100078 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (29,0,0) in block (0,0,0)
+=========     Address 0x600100074 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (28,0,0) in block (0,0,0)
+=========     Address 0x600100070 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (27,0,0) in block (0,0,0)
+=========     Address 0x60010006c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (26,0,0) in block (0,0,0)
+=========     Address 0x600100068 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (25,0,0) in block (0,0,0)
+=========     Address 0x600100064 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (24,0,0) in block (0,0,0)
+=========     Address 0x600100060 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (23,0,0) in block (0,0,0)
+=========     Address 0x60010005c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (22,0,0) in block (0,0,0)
+=========     Address 0x600100058 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (21,0,0) in block (0,0,0)
+=========     Address 0x600100054 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (20,0,0) in block (0,0,0)
+=========     Address 0x600100050 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (19,0,0) in block (0,0,0)
+=========     Address 0x60010004c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (18,0,0) in block (0,0,0)
+=========     Address 0x600100048 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (17,0,0) in block (0,0,0)
+=========     Address 0x600100044 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (16,0,0) in block (0,0,0)
+=========     Address 0x600100040 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (15,0,0) in block (0,0,0)
+=========     Address 0x60010003c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (14,0,0) in block (0,0,0)
+=========     Address 0x600100038 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (13,0,0) in block (0,0,0)
+=========     Address 0x600100034 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (12,0,0) in block (0,0,0)
+=========     Address 0x600100030 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (11,0,0) in block (0,0,0)
+=========     Address 0x60010002c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (10,0,0) in block (0,0,0)
+=========     Address 0x600100028 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (9,0,0) in block (0,0,0)
+=========     Address 0x600100024 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (8,0,0) in block (0,0,0)
+=========     Address 0x600100020 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (7,0,0) in block (0,0,0)
+=========     Address 0x60010001c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (6,0,0) in block (0,0,0)
+=========     Address 0x600100018 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (5,0,0) in block (0,0,0)
+=========     Address 0x600100014 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (4,0,0) in block (0,0,0)
+=========     Address 0x600100010 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (3,0,0) in block (0,0,0)
+=========     Address 0x60010000c is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (2,0,0) in block (0,0,0)
+=========     Address 0x600100008 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (1,0,0) in block (0,0,0)
+=========     Address 0x600100004 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Invalid __global__ read of size 4
+=========     at 0x00000070 in sum_kernel
+=========     by thread (0,0,0) in block (0,0,0)
+=========     Address 0x600100000 is out of bounds
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:/usr/lib/libcuda.so.1 (cuLaunchKernel + 0x3dc) [0xc9edc]
+=========     Host Frame:./loader [0xd9d]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Program hit error 4 on CUDA API call to cudaDeviceSynchronize 
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/usr/lib/libcuda.so.1 [0x26a180]
+=========     Host Frame:/usr/local/cuda-5.0/lib64/libcudart.so.5.0 (cudaDeviceSynchronize + 0x1e9) [0x26319]
+=========     Host Frame:./loader [0xe13]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Program hit error 4 on CUDA API call to cudaFree 
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/usr/lib/libcuda.so.1 [0x26a180]
+=========     Host Frame:/usr/local/cuda-5.0/lib64/libcudart.so.5.0 (cudaFree + 0x211) [0x30e11]
+=========     Host Frame:./loader [0xeb2]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Program hit error 4 on CUDA API call to cudaFree 
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/usr/lib/libcuda.so.1 [0x26a180]
+=========     Host Frame:/usr/local/cuda-5.0/lib64/libcudart.so.5.0 (cudaFree + 0x211) [0x30e11]
+=========     Host Frame:./loader [0xec7]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= Program hit error 4 on CUDA API call to cudaFree 
+=========     Saved host backtrace up to driver entry point at error
+=========     Host Frame:/usr/lib/libcuda.so.1 [0x26a180]
+=========     Host Frame:/usr/local/cuda-5.0/lib64/libcudart.so.5.0 (cudaFree + 0x211) [0x30e11]
+=========     Host Frame:./loader [0xedc]
+=========     Host Frame:./loader [0x1098]
+=========     Host Frame:/lib/x86_64-linux-gnu/libc.so.6 (__libc_start_main + 0xed) [0x2176d]
+=========     Host Frame:./loader [0xa19]
+=========
+========= ERROR SUMMARY: 228 errors

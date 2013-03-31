@@ -1,0 +1,114 @@
+V "GNAT Lib v4.6"
+M P W=b
+P SS ZX
+R nnnnnnnvnvnnnnnnnnvnnvnvvvvnnvnnnnnnnvnnnnnnvnnnnnnnnnnnnnvnvnnnnnnnnnnnnnnnnnnn
+
+U sum_kernel%b		trial.adb		7580e4a6 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.fixed_io%s
+W ada.text_io.float_aux%s  a-tiflau.adb		a-tiflau.ali
+W ada.text_io.generic_aux%s  a-tigeau.adb	a-tigeau.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.arith_64%s	s-arit64.adb		s-arit64.ali
+W system.exn_lli%s	s-exnlli.adb		s-exnlli.ali
+W system.img_real%s	s-imgrea.adb		s-imgrea.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-calend.ads		20090409150019 343c83dd
+D a-except.ads		20090727140100 0c711ac9
+D a-finali.ads		20090409150019 e5e85fa4
+D a-filico.ads		20090409150019 872dc219
+D a-inteio.ads		20070406091342 f64b89a4
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-numeri.ads		20080324174807 bb51c45a
+D a-nuflra.ads		20100622172941 49c50e0b
+D a-stream.ads		20090409150019 2ca4ee37
+D a-tags.ads		20101021101406 c7695348
+D a-textio.ads		20091028140912 386df5d4
+D a-tifiio.ads		20090409150019 6ed4936c
+D a-tifiio.adb		20100621133558 60891011
+D a-tiflau.ads		20090409150019 c0393f21
+D a-tigeau.ads		20090409150019 9eaed207
+D a-tiinio.ads		20090409150019 aa04e5d6
+D a-unccon.ads		20070406091342 f9eb8f06
+D interfac.ads		20090409150019 f77d8799
+D i-cstrea.ads		20100622165701 1bd72c32
+D trial.adb		20130321181144 c65f1500
+D system.ads		20120503154647 23e1f70b
+D s-arit64.ads		20090409150019 a011a169
+D s-crtl.ads		20100617122610 ac77b159
+D s-exctab.ads		20090417131547 66e51330
+D s-exnlli.ads		20090409150019 81977baf
+D s-ficobl.ads		20100909103250 443b9d66
+D s-finimp.ads		20090409150019 46853fe8
+D s-finroo.ads		20090409150019 dbb860c9
+D s-imgrea.ads		20090409150019 c7a851e2
+D s-parame.ads		20091130110856 9c5d83fa
+D s-rannum.ads		20100623054052 5eb33f0a
+D s-secsta.ads		20090707124243 eea35a36
+D s-soflin.ads		20090729085153 9414c974
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20101021102512 c4241c00
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stratt.ads		20100909123135 aedef97e
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 21|1r6 1r19 2r5 2r18 4r6 4r24 6r6 7r5 12r31
+X 2 a-calend.ads
+36K13*Calendar 358e17 21|4w10 4r28
+38I9*Time 21|33r26
+50O12*Day_Duration{duration} 21|12r52 34r30
+52V13*Clock{38I9} 21|47s18 81s18
+63U14*Split 21|48s1 82s1
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[17|45] 21|1w23 2r22
+X 8 a-numeri.ads
+16K13*Numerics 32e17 21|6r10 7r9
+X 9 a-nuflra.ads
+41K22*Float_Random 72e30 21|6w19 7r18
+45R9*Generator 21|27r12 28r12
+47F12*Uniformly_Distributed{float}
+49V13*Random{47F12}<32|62p13> 21|55s17 56s17 70s17 71s17
+X 12 a-textio.ads
+49K13*Text_IO 472e16 21|1w10 2r9 12r35
+X 13 a-tifiio.ads
+45k21*Fixed_IO 88e25 21|12r43
+67U14 Put 21|83s1[12]
+X 21 trial.adb
+10U11*sum_kernel 10b11 85l5 85t15
+12K17 Fix_IO[13|45] 13r13
+16A14 vector1(float)<integer> 19r12 20r12 21r12
+17A14 vector2(float)<integer> 23r12 24r12 25r12
+19a9 a{16A14} 55m9 58r17
+20a9 b{16A14} 56m9 58r24
+21a9 c{16A14} 58m9
+23a9 d{17A14} 70m9 73r17
+24a9 e{17A14} 71m9 73r24
+25a9 f{17A14} 73m9
+27r9 G{9|45R9} 55r24 56r24
+28r9 H{9|45R9} 70r24 71r24
+32i9 Year{integer} 48m22 82m22
+32i14 Month{integer} 48m28 82m28
+32i20 Day{integer} 48m35 82m35
+33i9 Time_And_Date{2|38I9} 47m1 48r7 81m1 82r7
+34o9 StartTime{2|50O12} 48m40 83r13
+34o19 EndTime{2|50O12} 82m40 83r5
+36i9 power{integer} 42m1 46m1 46r10 54r11 69r11
+37i9 i{integer} 53m3 54r9 55r11 56r11 58r11 58r19 58r26 61m9 61r12 69r9 70r11
+. 71r11 73r11 73r19 73r26
+38i9 k{integer} 51m1 52r7 63m9 63r13 66m1 67r7 78m9 78r13
+39i1 l{integer} 68m3 76m9 76r12
+44i5 j{integer}
+

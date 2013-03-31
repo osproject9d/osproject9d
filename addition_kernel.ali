@@ -1,0 +1,62 @@
+V "GNAT Lib v4.6"
+A -fplugin=/home/oslab/sandbox/lib/dragonegg.so
+A -fplugin-arg-dragonegg-emit-ir
+A -fplugin-arg-dragonegg-llvm-ir-optimize=0
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnvvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U sum_kernel%b		sum_kernel.adb		0dc35383 NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U sum_kernel%s		sum_kernel.ads		99c2efd6 EE NE OO PK IL
+
+D ada.ads		20130214072014 3ffc8e18
+D a-except.ads		20130214072014 0c711ac9
+D a-finali.ads		20130214072014 e5e85fa4
+D a-filico.ads		20130214072014 872dc219
+D a-ioexce.ads		20130214072014 8b9de6cd
+D a-stream.ads		20130214072014 2ca4ee37
+D a-tags.ads		20130214072014 c7695348
+D a-textio.ads		20130214072014 386df5d4
+D a-unccon.ads		20130214072014 f9eb8f06
+D interfac.ads		20130214072014 f77d8799
+D i-cstrea.ads		20130214072014 1bd72c32
+D sum_kernel.ads	20130323185715 99c2efd6
+D sum_kernel.adb	20130312190003 ac6c4981
+D system.ads		20130214072014 23e1f70b
+D s-crtl.ads		20130214072014 ac77b159
+D s-exctab.ads		20130214072014 66e51330
+D s-ficobl.ads		20130214072014 443b9d66
+D s-finimp.ads		20130214072014 46853fe8
+D s-finroo.ads		20130214072014 dbb860c9
+D s-parame.ads		20130214072014 9c5d83fa
+D s-secsta.ads		20130214072014 eea35a36
+D s-soflin.ads		20130214072014 9414c974
+D s-stache.ads		20130214072014 596fc1b4
+D s-stalib.ads		20130214072014 c4241c00
+D s-stoele.ads		20130214072014 facd7d98
+D s-stoele.adb		20130214072014 afc5dc80
+D s-stratt.ads		20130214072014 aedef97e
+D s-traent.ads		20130214072014 5221ee41
+D s-unstyp.ads		20130214072014 6ae15c76
+D s-wchcon.ads		20130214072014 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 13|1r6 2r5
+X 8 a-textio.ads
+49K13*Text_IO 472e16 13|1w10 2r9
+X 12 sum_kernel.ads
+1K9*sum_kernel 17l5 17e15 13|3b14 19l5 19t15
+3V10*threadIdx_x{integer} 7b<c,threadIdx_x>19 13|14s16
+4V10*blockIdx_x{integer} 8b<c,blockIdx_x>19 13|14s30
+5V10*blockDim_x{integer} 9b<c,blockDim_x>19 13|14s43
+12A6*vector(float)<integer> 13r33 13r48 13|8r33 8r48
+13U11*sum_kernel 13>23 13>26 13<41 15r19 13|8b11 17l5 17t15
+13a23 a{12A6} 13|8b23 15r19
+13a26 b{12A6} 13|8b26 15r28
+13a41 c{12A6} 13|8b41 15m9
+X 13 sum_kernel.adb
+10i9 idx{integer} 14m9 15r11 15r21 15r30
+
